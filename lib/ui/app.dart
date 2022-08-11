@@ -47,6 +47,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   ctlr.signal,
                   style: Theme.of(context).textTheme.headlineLarge,
                 )),
+            Obx(() => Icon(
+                  ctlr.icon,
+                  size: 45,
+                )),
           ],
         ),
       ),
